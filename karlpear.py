@@ -59,3 +59,6 @@ print(f"Regression line y on x: y =  {slope:.2f}x + {intercept:.2f}  ")
 
 slope, intercept, r_value, p_value, std_err = stats.linregress(y, x)
 print(f"Regression line x on y: x =  {slope:.2f}y + {intercept:.2f}  ")
+
+
+print("End of problem")
